@@ -1,4 +1,4 @@
-giconst { default: WASocket, useSingleFileAuthState, fetchLatestBaileysVersion, DisconnectReason } = require('@adiwajshing/baileys')
+const { default: WASocket, useSingleFileAuthState, fetchLatestBaileysVersion, DisconnectReason } = require('@adiwajshing/baileys')
 const Pino = require('pino')
 const { sessionName } = require('./config.json')
 const { Boom } = require('@hapi/boom')
